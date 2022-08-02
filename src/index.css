@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+}
+
+:root{
+    --clr-black : #23252C;
+    --clr-dark : #1A1B21;
+    --clr-tumble : #D8AB8A;
+    --clr-blue : #5093E2;
+    --clr-dark-black : #161619;
+}
+
+body{
+    width: 25%;
+    margin: 0 auto;
+    background-color: var(--clr-black);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    display: block;
+}
+
+.info{
+    text-align: center;
+}
+
+.info-image{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-container{
+    background-color: var(--clr-dark);
+    width: 100%;
+    min-width: 350px;
+}
+
+.content,
+.about,
+.interest{
+    padding: 0 2em;
+}
+
+.about{
+    margin-top: 2.85em;
+}
+
+.info-heading{
+    color: #fff;
+    letter-spacing: 2px;
+    margin-top: .6em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.info-title{
+    color: var(--clr-tumble);
+    font-family: 'Open Sans', sans-serif;
+    font-size: .85em;
+    letter-spacing: 1px;
+}
+
+.info-desc{
+    color: #fff;
+    font-size: .8em;
+    margin: .6em 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.github-logo{
+    width: 25px;
+}
+
+.about-heading,
+.interest-heading{
+    color: #fff;
+    font-size: 1em;
+    margin-bottom: .4em;
+    letter-spacing: 2px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.about-desc,
+.interest-desc{
+    color: rgb(204, 204, 204);
+    font-size: .8em;
+    margin-bottom: .4em;
+    letter-spacing: 1px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.interest-heading{
+    margin-top: 1em;
+}
+
+.interest-desc{
+    padding-bottom: 1em;
+}
+
+.link{
+    margin: 1em 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.github-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: var(--clr-dark-black);
+    background-color: #fff;
+    font-weight: 800;
+    padding: .6em 6em;  
+    border-radius: 4px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.github-link:hover{
+    color: var(--clr-dark-black);
+    background-color: var(--clr-blue);  
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--clr-dark-black);
+    padding: .6em 0;
+}
+
+.footer-image{
+    margin-right: 1.4em;
+}
+
+.footer-image-github{
+    width: 40px;
+}
+
+.footer-image-linkedin{
+    width: 38px;
+    height: 40px;
+}
+
+.footer-image-twitter{
+    width: 35px;
+    height: 34px;
+}
+
+.footer,
+.card-container{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
