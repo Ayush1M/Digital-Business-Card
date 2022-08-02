@@ -14,7 +14,7 @@
 
 ## Screenshot
 
-
+![](./business-card-image.png)
 
 
 ## Technologies I Used
