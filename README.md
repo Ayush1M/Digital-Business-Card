@@ -23,7 +23,7 @@
 ## What I Learned
 * Learned about JSX.
 * Learned how to create a React App.
-* Learned how to create components for different sections(Info, about, interest, footer).
+* Learned how to create custom components.
 * Learned how to do styling in react.
 
 ## Acknowledgment
